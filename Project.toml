@@ -1,0 +1,17 @@
+name = "embree_jll"
+uuid = "53dd5c6e-97f4-5e79-aac9-38fee591a4c7"
+version = "3.13.1+0"
+
+[deps]
+JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
+JpegTurbo_jll = "aacddb02-875f-59d6-b918-886e6ef4fbf8"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+libpng_jll = "b53b4c65-9356-5827-b1ea-8c7a1a84506f"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+GLFW_jll = "0656b61e-2033-5cc2-a64a-77c0f6c09b89"
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+oneTBB_jll = "1317d2d5-d96f-522e-a858-c73665f53c3e"
+
+[compat]
+JLLWrappers = "1.2.0"
+julia = "1.0"

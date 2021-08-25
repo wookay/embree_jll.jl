@@ -1,0 +1,34 @@
+[[embree]]
+arch = "x86_64"
+git-tree-sha1 = "5e9b480fcf348b5ed25db077ca17a0ad1ff18c07"
+os = "macos"
+
+    [[embree.download]]
+    sha256 = "716cde8ad17d8af575a275f9de751baf9ce1ec6292f9440c0292b831e0b4c50c"
+    url = "https://github.com/wookay/embree_jll.jl/releases/download/embree-v3.13.1+0/embree.v3.13.1.x86_64-apple-darwin.tar.gz"
+[[embree]]
+arch = "x86_64"
+git-tree-sha1 = "5c64d70c92b6abbe101b7774efba6aabf36379bf"
+libc = "glibc"
+os = "linux"
+
+    [[embree.download]]
+    sha256 = "bdf93dac1922ba5190a33e2c703d983b70d2ee89d0407c3dd6def00198f3a54f"
+    url = "https://github.com/wookay/embree_jll.jl/releases/download/embree-v3.13.1+0/embree.v3.13.1.x86_64-linux-gnu.tar.gz"
+[[embree]]
+arch = "x86_64"
+git-tree-sha1 = "f4632ee252a22058394604762c4d8d090438d0a8"
+libc = "musl"
+os = "linux"
+
+    [[embree.download]]
+    sha256 = "e4cbdd7051c0d0aff67b43633cc200cea61ef3fb7c94a3b22f6894e0ec058270"
+    url = "https://github.com/wookay/embree_jll.jl/releases/download/embree-v3.13.1+0/embree.v3.13.1.x86_64-linux-musl.tar.gz"
+[[embree]]
+arch = "x86_64"
+git-tree-sha1 = "f09aaea02a7e627afe7a9aa707e521ab3bbd6b9f"
+os = "freebsd"
+
+    [[embree.download]]
+    sha256 = "2c943dc5d34ed50a455d1a5d8e11c6edb3828ce26ef83f9ab289e3a96fcb6ed2"
+    url = "https://github.com/wookay/embree_jll.jl/releases/download/embree-v3.13.1+0/embree.v3.13.1.x86_64-unknown-freebsd.tar.gz"
